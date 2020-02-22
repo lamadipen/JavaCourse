@@ -82,6 +82,56 @@
 			System.out.println("Value1 and value 2 is equal or value1 is equal to 1");
 		}
 
+		int initialBalance = 70;
+
+		if(initialBalance > 80){
+			System.out.println("You are able to buy this book.");
+		}else{
+			System.out.println("You can by cheaper book than Current book");
+		}
+
+		char month = 'a';
+
+		switch(month){
+			case 'a': 
+					System.out.println("Janaury");
+					break;
+			case 'b': 
+					System.out.println("February");
+					break;
+			case 'c': 
+					System.out.println("August");
+					break;
+			default: 
+				System.out.println("No month is matched");
+				break;
+		}
+
+		boolean isTrue1 = true;
+		int count =0;
+		while(isTrue1){
+			System.out.println("Count is :: " + count);
+			count++;
+
+			if(count == 5){
+				isTrue1 = false;
+			}
+		}
+
+		int doWhileCount =10;
+		
+		do{
+			System.out.println("Inside Do while" + doWhileCount);
+			doWhileCount++;
+		}while(doWhileCount < 10);
+
+
+		for(int i=10; i > 0; i--){
+			if(i == 5){
+				continue;
+			}
+			System.out.println("After continue " + i);
+		}
 
 	}
 }
