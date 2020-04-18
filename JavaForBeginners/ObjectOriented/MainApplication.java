@@ -19,6 +19,8 @@ public class MainApplication{
 		Cat cat2 = new Cat();
 		cat2.name= "Black Cat";
 		cat2.eat();
+
+		cat2.meow();
 		
 
 	}
